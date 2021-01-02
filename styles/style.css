@@ -70,7 +70,7 @@
 }
 
 .two-content {
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px 100px 0px;
     display: flex;
     justify-content: center;
 }
@@ -96,38 +96,44 @@
     font-weight: lighter;
 }
 
-.tree-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 0px 0px 0px;
-}
-
-.tree-container .form {
-    display: flex;
-    flex-direction: column;
-}
-
-.tree-container .form input {
-    border-radius: 20px;
-}
-
-.tree-container .form input[type="email"] {
-    height: 40px;
-}
-
-.tree-container .form input[type="text"] {
-    width: 400px;
-    height: 300px;
-}
-
-.tree-container .form button {
-    height: 40px;
-    border: none;
+footer {
+    width: 100%;
+    height: 70px;
+    position: static;
+    bottom: 0;
     background-color: #93BEFF;
-    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.tree-container img {
-    margin: 0px 0px 0px 100px;
+footer p {
+    margin: 0px 0px 0px 20px;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    margin: 0px 20px 0px 0px;
+}
+footer .social-icons img {
+    margin: 0px 0px 0px 10px;
+    transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer .social-icons img:active {
+    transform: scale(.9);
 }
