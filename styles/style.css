@@ -112,10 +112,22 @@
     border-radius: 20px;
 }
 
-.tree-container .form button {
+.tree-container .form input[type="email"] {
+    height: 40px;
+}
 
+.tree-container .form input[type="text"] {
+    width: 400px;
+    height: 300px;
+}
+
+.tree-container .form button {
+    height: 40px;
+    border: none;
+    background-color: #93BEFF;
+    border-radius: 20px;
 }
 
 .tree-container img {
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 100px;
 }
