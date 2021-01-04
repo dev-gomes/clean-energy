@@ -40,6 +40,12 @@
     color: #93BEFF;
 }
 
+.menu .menu-mobile-button {
+    display: none;
+    margin: 30px 40px 30px 50px;
+    font-size: 1.6rem;
+}
+
 .first-content {
     display: flex;
     justify-content: center;

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    .menu .menu-mobile-button {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .first-content img {
+        display: none;
+    }
+
+    .first-content .text-box {
+        width: 400px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .two-content {
+        flex-direction: column;
+    }
+
+    .two-content .card.two {
+        margin: 50px 0px 50px 0px;
+    }
+}
