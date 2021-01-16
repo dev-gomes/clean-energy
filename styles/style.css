@@ -78,12 +78,14 @@
 .two-content {
     margin: 100px 0px 100px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .two-content .card {
     width: 240px;
-    height: 250px;
+    height: auto;
+    max-height: 250px;
     padding: 50px;
     background-color: #93BEFF;
     border-radius: 20px;
