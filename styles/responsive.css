@@ -1,34 +1,18 @@
-@media only screen and (max-width: 600px) {
-    .menu .menu-mobile-button {
-        display: block;
+@media only screen and (max-width: 810px) {    
+    .menu ul {
+    	display: none;
     }
 
-    .menu ul {
-        display: none;
+    .menu {
+    	justify-content: center;
     }
 
     .first-content img {
-        display: none;
+    	display: none;
     }
 
     .first-content .text-box {
-        width: 400px;
-        margin: 50px 0px 0px 0px;
-    }
-}
-
-@media only screen and (max-width: 780px) {
-    .two-content .card.two {
-        margin: 0px 0px 50px 0px;
-    }
-
-    .two-content .card.first {
-        margin: 0px 0px 50px 0px;
-    } 
-}
-
-@media only screen and (max-width: 1135px) {
-    .two-content .card.tree {
-        margin: 50px 0px 0px 0px;
+    	justify-content: center;
+    	margin: 0;
     }
 }

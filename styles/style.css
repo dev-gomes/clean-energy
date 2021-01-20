@@ -1,5 +1,6 @@
 * {padding: 0; margin: 0; font-family: 'Roboto', sans-serif;}
 
+/*----------------------------Estilização do menu --------------------------------------*/
 .menu {
     display: flex;
     justify-content: space-between;
@@ -46,6 +47,8 @@
     font-size: 1.6rem;
 }
 
+/*----------------------------Estilização do primeiro container --------------------------------------*/
+
 .first-content {
     display: flex;
     justify-content: center;
@@ -53,9 +56,8 @@
 }
 
 .first-content img {
-    max-width: 544px;
-    width: 100%;
-    max-height: 419px;
+    max-width: 45%;
+    max-height: 45%;
     min-width: auto;
 }
 
@@ -75,6 +77,8 @@
     font-weight: lighter;
 }
 
+/*----------------------------Estilização do segundo container --------------------------------------*/
+
 .two-content {
     margin: 100px 0px 100px 0px;
     display: flex;
@@ -87,12 +91,9 @@
     height: auto;
     max-height: 250px;
     padding: 50px;
+    margin: 20px;
     background-color: #93BEFF;
     border-radius: 20px;
-}
-
-.two-content .card.two {
-    margin: 0px 50px 0px 50px;
 }
 
 .two-content .card h1 {
@@ -103,6 +104,8 @@
     font-size: 17px;
     font-weight: lighter;
 }
+
+/*----------------------------Estilização do footer --------------------------------------*/
 
 footer {
     width: 100%;
